@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Font Icon CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    
+    <!-- Import Font from Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <title>Dashboard 📊</title>
+</head>
+
+<body>
+    <header>
+        <img src="./assets/spotify-logo.png" alt="" id="logo">
+        <nav>
+            <ul>
+                <li id="selected-menu">
+                    <i class="bi bi-house-door-fill"></i>
+                    <h3>Overview</h3>
+                </li>
+                <li>
+                    <i class="bi bi-bar-chart"></i>
+                    <h3>Activity</h3>
+                </li>
+                <li>
+                    <i class="bi bi-map"></i>
+                    <h3>Map</h3>
+                </li>
+                <li>
+                    <i class="bi bi-people"></i>
+                    <h3>Leads</h3>
+                </li>
+                <li>
+                    <i class="bi bi-gear"></i>
+                    <h3>Settings</h3>
+                </li>
+            </ul>
+        </nav>
+        <div id="profile">
+            <div id="profile-picture"></div>
+            <div>
+                <h3 id="username">David Giraldo</h3>
+                <p id="email">david@gmail.com</p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="upper-bar">
+            <div id="main-label">
+                <h4 id="highlight-label">Hi!</h4>
+                <h4>You have 2 updates</h4>
+                <h4 id="check-label">Check</h4>
+            </div>
+            <div id="search-container">
+                <i class="bi bi-search"></i>
+                <input type="text">
+            </div>
+        </section>
+        <section id="charts-container">
+            <div id="firts-column">
+                <div class="chart">
+                    <div class="chart-title">
+                        <i class="bi bi-pie-chart-fill"></i>
+                        <h3>Chart 1</h3>
+                    </div>
+                    <div class="chart-content-container">
+                        <div class="text-data">
+                            <h2>37</h2>
+                            <h3>NEW LEADS!</h3>
+                            <h5>updated: 19/05/23 at 10:54 p.m.</h5>
+                        </div>
+                        <div class="put-your-chart">
+                            <!-- PUT YOUR CHART HERE -->
+                            <p> PUT YOUR CHART HERE</p>
+                        </div>
+                    </div>
+                    <div class="view-details">
+                        <h3>View Details</h3>
+                    </div>
+                </div>
+                <div class="chart">
+                    <div class="chart-title">
+                        <i class="bi bi-map-fill"></i>
+                        <h3>Chart 2</h3>
+                    </div>
+                    <div class="chart-content-container">
+                        <div class="text-data">
+                            <h2>6</h2>
+                            <h3>ACTIVE SPOTS</h3>
+                            <h5>updated: 19/05/23 at 10:54 p.m.</h5>
+                        </div>
+                        <div class="put-your-chart">
+                            <!-- PUT YOUR CHART HERE -->
+                            <p> PUT YOUR CHART HERE</p>
+                        </div>
+                    </div>
+                    <div class="view-details">
+                        <h3>View Details</h3>
+                    </div>
+                </div>
+            </div>
+            <div id="second-column">
+                <div class="chart">
+                    <div class="chart-title">
+                        <i class="bi bi-map-fill"></i>
+                        <h3>Chart 3</h3>
+                    </div>
+                    <div class="chart-content-container">
+                        <div class="text-data">
+                            <h2>2768</h2>
+                            <h3>INTERACTIONS</h3>
+                            <h5>updated: 19/05/23 at 10:54 p.m.</h5>
+                        </div>
+                        <div class="put-your-chart">
+                            <!-- PUT YOUR CHART HERE -->
+                            <p> PUT YOUR CHART HERE</p>
+                        </div>
+                    </div>
+                    <div class="view-details">
+                        <h3>View Details</h3>
+                    </div>
+                </div>
+                <div class="chart">
+                    <div class="chart-title">
+                        <i class="bi bi-map-fill"></i>
+                        <h3>Chart 4</h3>
+                    </div>
+                    <div class="chart-content-container">
+                        <div class="text-data">
+                            <h2>2768</h2>
+                            <h3>INTERACTIONS</h3>
+                            <h5>updated: 19/05/23 at 10:54 p.m.</h5>
+                        </div>
+                        <div class="put-your-chart">
+                            <!-- PUT YOUR CHART HERE -->
+                            <p> PUT YOUR CHART HERE</p>
+                        </div>
+                    </div>
+                    <div class="view-details">
+                        <h3>View Details</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
